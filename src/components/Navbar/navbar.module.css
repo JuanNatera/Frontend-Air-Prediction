@@ -1,0 +1,34 @@
+#logoApp{
+    filter: invert();
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+
+#NavBardiv{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    color: rgb(46, 46, 46);
+    width: 100px;
+    height: 100vh;
+    padding: 20px;
+}
+
+#NavBardiv nav{
+    display: flex;
+    flex-direction: column;
+}
+
+#NavMenubtns{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    align-self: center;
+    padding: 30px 15px;
+    border-radius: 100px;
+    justify-content: space-between;
+    width: fit-content;
+    gap: 20px;
+}

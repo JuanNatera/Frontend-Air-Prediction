@@ -1,0 +1,73 @@
+.InfoCardsdiv {
+    width: 100%;
+    min-height: 100%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+/* Parte superior */
+.cardheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardtitle {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Botón circular */
+.cardbutton {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+    border: 1px solid #333;
+
+    background-color: white;
+
+    font-size: 24px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Valor principal */
+.consumption {
+    font-size: 32px;
+    color: #111;
+    margin-top: 5px;
+}
+
+.consumption span {
+    font-size: 20px;
+}
+
+/* Parte inferior */
+.cardfooter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.percentage {
+    background-color: #ffe5e5;
+    color: #d95353;
+
+    padding: 5px 10px;
+    border-radius: 20px;
+
+    font-size: 13px;
+}
+
+.comparison {
+    font-size: 13px;
+    color: #555;
+}
